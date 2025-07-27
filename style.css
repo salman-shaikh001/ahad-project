@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+}
+body{
+    background: black;
+}
+button{
+    width: 50px;
+    height: 40px;
+    font-weight: 700;
+    border: transparent;
+}
+i img{
+    height: 48px;
+    align-items: center;
+    
+}
+#todo_list{
+    width: 400px;
+    height: 400px;
+    overflow: auto;
+    background: white;
+    margin: 50px auto;
+    display: grid;
+    place-items: center;
+    border-radius: 10px;
+}
+#user_input{
+    position: absolute;
+    top: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-content: space-between;
+}
+#user_input button{
+    margin-left: 10px;
+    width: 60px;
+    font-size: 1.1em;
+    background: red;
+    color: white;
+    border-radius: 4px;
+    outline: 1px solid grey;
+}
+#user_task{
+    height: 34px;
+    width: 210px;
+    font-size: 1.3em;
+    padding-left: 10px;    
+    border-radius: 5px;
+    outline: none;
+    border: 2px solid transparent;
+    background: rgba(128, 128, 128, 0.233);
+}
+#task_section{
+    margin-top: 72px;
+    width: 370px;
+    padding: 5px;
+    padding-left: 15px;
+    border-radius: 5px;
+    height: 318px;
+    overflow: auto;
+}
+#new_task{
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+    
+}
+#new_task h3{
+    color: rgb(74, 120, 247);
+    padding: 5px;
+    font-size: 1.2em;
+    
+}
+#remove_task{
+    margin-left: 2px;
+    border-radius: 5px;
+    height: 49px;
+    width: 55px;
+}
+#Edit_Task{
+    margin-left: 5px;
+    border-radius: 5px;
+    font-size: 1.1em;
+    width: 55px;
+    height: 49px;
+}
+.input_edit_name{
+    height: 47px;
+    width: 238px;
+    overflow: auto;
+    background: powderblue;
+    font-size: 1.2em;
+    font-weight: 500;
+    color: rgb(74, 120, 247);
+    text-align: left;
+    padding-left: 10px;
+    border-radius: 5px;
+    outline: powderblue;
+    border: transparent;
+}
+.strike{
+    text-decoration: line-through;
+    text-decoration-thickness: 3px;
+    text-decoration-color: rgb(121, 244, 121);
+}
+#task_name{
+    display: flex;
+    align-items: center;
+    border: transparent;
+    background: powderblue;
+    width: 240px;
+    height: 39px;
+    border-radius: 5px;
+    font-size: 2em;
+}
+#task_name button{
+    margin-right: 10px;
+}
+.task_complete_icon img{
+    height: 63px;
+    width: 63px;
+}
+.task_complete_icon{
+    position: relative;
+    left: -17px;
+    top: -13px;
+}
+#tick_mark_btn{
+    border-radius: 7px;
+    height: 39px;
+    width: 40px;
+}
+#app_heading{
+    position: relative;
+    top: 30px;
+    font-size: 2em;
+    color: white;
+    text-align: center;
+}
+#old_sort_btn{
+    width: 40px;
+    background: yellow;
+    position: absolute;
+    top: 100px;
+    left: 697px;
+}
+#recent_sort_btn{
+    width: 40px;
+    background: yellow;
+    position: absolute;
+    top: 143px;
+    left: 697px;
+}
+.empty_msg{
+    text-align: center;
+    font-size: 3em;
+    position: relative;
+    top: 120px;
+    color: rgb(66, 193, 209);
+}
+footer{
+    position: absolute;
+    top: 500px;
+    color: white;
+}

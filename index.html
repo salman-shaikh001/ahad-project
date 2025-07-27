@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal To Do list App</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <h2 id="app_heading">Personal To do List</h2>
+    <div id="todo_list">
+      <div id="user_input">
+        <input type="text" id="user_task" placeholder="Add a task" />
+        <button id="add_task_btn">Add</button>
+      </div>
+      <div id="task_section">
+          <div id="new_task">
+      <h3 id="task_name"><button onclick="striking(this)" id="tick_mark_btn"></button>My Tasks</h3>
+      <button id="Edit_Task" onclick="feature_edit(this)"><i><img src="icons/icons8-edit-100.png" alt="" srcset=""></i></button>
+      <button id="remove_task" onclick="feature_remove_task(this)">
+        <i id='delete_btn'><img src="icons/icons8-delete.svg" alt="" srcset="" /></i>
+      </button>
+      </div>
+    </div>
+    <footer>App rights reserved by Abdul Ahad Chachar</footer>
+  </body>
+</html>
